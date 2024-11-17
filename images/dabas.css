@@ -1,0 +1,67 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+#header{
+    width:1540px;
+    height:50px;
+    background-color: black;
+    
+}
+#header div img{
+    height:20px;
+    
+}
+#images{
+
+        display: flex;
+       
+        align-items: center;
+        width:600px;
+}
+#header div h1{
+    height:30pzx;
+}
+#images div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  color: white;
+    width:200px;
+    margin-top: 10px;;
+}
+/*back  */
+#back{
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.61E1UaSAiZvMq2HVos9M8gHaEK&pid=Api&P=0&h=180");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#back div img{
+    height:60px;
+}
+#back div{
+    display:flex;
+    justify-content:space-around;
+    
+}
+#span input{
+    height:30px;
+}
+#span button{
+    height:30px;  
+}
+#main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     height:600px;
+     background-image:url("https://tse1.mm.bing.net/th?id=OIP.61E1UaSAiZvMq2HVos9M8gHaEK&pid=Api&P=0&h=180");
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+#main {
+    font-size:20px;
+   color: white;
+}

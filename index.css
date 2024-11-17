@@ -1,0 +1,637 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+body{
+    background-color:lightgray;
+}
+
+
+#upperheader{
+   
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: black;
+    color:white;
+    width:100%
+}
+#upperheader img{
+    height: 50px;
+    width: 150px;
+}
+#upperheader img :hover{
+    border:2px solid white;
+}
+#upperheader div select{
+    height:40px;
+    width: 120px;
+    font-size: 30px;
+    padding-left: 5px;
+    background-color:darkcyan;
+}
+#upperheader div input{
+    height:40px;
+    width: 500px;
+    font-size: 30px;
+    padding-left: 8px;
+    margin-right: 0px;
+}
+
+#upperheader div button{
+    height:43px;
+    width: 120px;
+    font-size: 30px;
+    padding-left: 5px;
+    margin: 0%;
+    margin-left: 0px;
+    background-color: burlywood;
+
+}
+#upperheader div:hover{
+    border: 2px solid white;
+}
+/*second header*/
+#scndheader{
+    display: flex;
+    align-items:center ;
+    background-color: slategray;
+    height: 50px;
+}
+#scndheader ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 18px 18px 18px 18px;
+}
+#scndheader ul li{
+  margin: 8px 15px 8px 0px;
+  font-size: 17px; 
+  color: white; 
+}
+#scndheader ul li:hover{
+    border:2px solid white;
+}
+/* slider  */
+#slider{
+    width:1518px;
+    height:600px;
+    background-color: blue;
+    display: flex;
+    overflow: hidden;
+    
+   
+}
+#slider div img{
+    height:100%;
+    width:100%;
+}
+#slider div{
+   min-width: 100%;
+   transition: transform 0.5s;
+   
+}
+#slide-btn{
+    position:absolute;
+    left:10;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.btn{
+    padding:80px 10px 80px 10px;
+    margin-top: 10px;
+    font-size: 25px;
+    background-color: transparent;
+}
+
+
+/*   products 1 */
+
+#product1{
+    width: 350px;
+    height:390px;
+    background-color: white;
+}
+
+#p1-img{
+    height: 300px;
+    width:290px;
+}
+#p1-img img{
+    height:100%;
+    width:100%;
+    padding-left: 25px;
+
+}
+#p1-heading{
+    width:310px;
+    height:60px;
+    padding: 0px 0px 0px 20px;
+}
+/*   product 2  */
+
+ #product2{
+    width: 350px;
+    height:390px;
+    background-color: white;}
+#p2-heading{
+    height: 50px;
+    width:290px;
+    margin: 5px 0px 0px 20px;
+    padding-top: 14px;
+}
+
+    .p2-img1{
+        height:120px;
+        width:150px;
+        background-color: white;
+    }
+    .p2-img1 img{
+        height:80%;
+        width:100%;
+    }
+    #p2-edit1{
+        width:350px;
+        height: 170px;
+        display: flex;
+        justify-content: space-around;
+    }
+    #p2-edit2{
+        width:350px;
+        height: 170px;
+        display: flex; 
+        justify-content: space-around;
+    }
+       
+ /*  product 3  */
+   
+    #product3{
+        width: 350px;
+        height:390px;
+        background-color: white;}
+    
+    #p3-heading3{
+        height: 65px;
+        width:290px;
+        margin: 5px 0px 0px 20px;
+        padding-top: 10px 0px 5px 0px;
+    }
+    #p3-edit3{
+        width:350px;
+        height: 170px;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    #p3-edit4{
+        width:350px;
+        height: 170px;
+        display: flex;
+        justify-content: space-around;
+       
+    }
+    .p3-img2{
+        height:120px;
+        width:150px;
+        
+    }
+    .p3-img2 img{
+        height:80%;
+        width:100%;
+    }
+
+    /*  product  4  */
+
+#product4{
+    width: 350px;
+    height:390px;
+    background-color: white;
+  
+}
+#p4-heading{
+    height: 50px;
+    width:290px;
+    margin: 5px 10px 0px 20px;
+    padding-top: 14px;
+}
+.p4-img3{
+    height:120px;
+    width:150px;
+   
+}
+.p4-img3 img{
+    height:80%;
+    width:100%; 
+}
+#p4-edit5{
+    width:350px;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+}
+#p4-edit6{
+    width:350px;
+    height: 170px;
+    display: flex;
+    justify-content: space-around; 
+}
+
+#main{
+   position:relative;
+   top:-300px;
+   display:flex;
+   justify-content: space-around;
+
+
+}
+/* product row2*/
+
+#row2-edit{
+   
+  display: flex; 
+  justify-content: space-around;
+}
+#p-row2{
+ background-color: white;
+ width:1475px;
+ margin-left: 30px;
+ position:relative;
+ top:-280px;
+
+   
+}
+#row2-text{
+    margin-left: 20px;;
+}
+
+
+
+#row2-edit div{
+    height:250px;
+    width:190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#row2-edit div img{
+    height:80%;
+    width:80%;
+}
+
+#row2-edit2{
+   
+  display: flex; 
+  justify-content: space-around;
+}
+/* prodduct row 3 */
+#row3-edit{
+   
+    display: flex; 
+    justify-content: space-around;
+  }
+#p-row3{
+ background-color: white;
+ width:1475px;
+ margin-left: 30px;
+ position:relative;
+ top:-260px;
+
+   
+}
+#row3-text{
+    margin-left: 20px;;
+}
+
+
+
+#row3-edit div{
+    height:250px;
+    width:190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#row3-edit div img{
+    height:80%;
+    width:80%;
+}
+
+/*  row4-product1 */
+#row4-p1{
+    width: 350px;
+    height:390px;
+    background-color: white;
+}
+
+#row4-p1-div{
+    height: 300px;
+    width:290px;
+}
+#row4-p1-div img{
+    height:100%;
+    width:100%;
+    padding-left: 25px;
+
+}
+#row4-p1-text{
+    width:310px;
+    height:60px;
+    padding: 0px 0px 0px 20px;
+}
+/*   row4 product 2  */
+
+ #row4-p2{
+    width: 350px;
+    height:390px;
+    background-color: white;}
+#row4-p2-text{
+    height: 50px;
+    width:290px;
+    margin: 5px 0px 0px 20px;
+    padding-top: 14px;
+}
+
+    .row4-p2-img{
+        height:120px;
+        width:150px;
+        background-color: white;
+    }
+    .row4-p2-img img{
+        height:80%;
+        width:100%;
+    }
+    #row4-p2-edit1{
+        width:350px;
+        height: 170px;
+        display: flex;
+        justify-content: space-around;
+    }
+    #row4-p2-edit2{
+        width:350px;
+        height: 170px;
+        display: flex; 
+        justify-content: space-around;
+    }
+       
+ /*  product 3  */
+   
+    #row4-p3{
+        width: 350px;
+        height:390px;
+        background-color: white;}
+    
+    #row4-p3-text{
+        height: 65px;
+        width:290px;
+        margin: 5px 0px 0px 20px;
+        padding-top: 10px 0px 5px 0px;
+    }
+    #row4-p3-edit1{
+        width:350px;
+        height: 170px;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    #row4-p3-edit2{
+        width:350px;
+        height: 170px;
+        display: flex;
+        justify-content: space-around;
+       
+    }
+    .row4-p3-img{
+        height:120px;
+        width:150px;
+        
+    }
+    .row4-p3-img img{
+        height:80%;
+        width:100%;
+    }
+
+    /*  product  4  */
+
+#row4-p4{
+    width: 350px;
+    height:390px;
+    background-color: white;
+  
+}
+#row4-p4-text{
+    height: 50px;
+    width:290px;
+    margin: 5px 10px 0px 20px;
+    padding-top: 14px;
+}
+.row4-p4-img{
+    height:120px;
+    width:150px;
+   
+}
+.row4-p4-img img{
+    height:80%;
+    width:100%; 
+}
+#row4-p4-edit1{
+    width:350px;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+}
+#row4-p4-edit2{
+    width:350px;
+    height: 170px;
+    display: flex;
+    justify-content: space-around; 
+}
+
+#maina{
+   position:relative;
+   top:-230px;
+   display:flex;
+   justify-content: space-around;
+}
+/*  product row 5 */
+#p-row5{
+    background-color: white;
+    width:1477px;
+    margin-left: 20px;
+    position:relative;
+    top:-210px;
+   
+}
+ 
+
+#p-row5-edit{
+   
+    display: flex; 
+    justify-content: space-around;
+  }
+ 
+  
+  
+  
+  
+  #p-row5-edit div{
+      height:250px;
+      width:190px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     
+  }
+  #p-row5-edit div img{
+      height:80%;
+      width:80%;
+  }
+ /*  sign in page */
+ #sign{
+height:180px;
+width:1477px;
+background-color: white;
+display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+  top:-190px;
+  margin-left: 20px;
+  font-size: 20px;
+  border:2px solid black;
+ }
+ #sign-div1{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+ }
+ #sign-div2{
+    display:flex;
+    
+    justify-content: center;
+    align-items: center;
+    border:2px solid black;
+    margin-top: 5px;
+ }
+ #sign-div1 button{
+    width:190px;
+    height:25px;
+    font-size: 20px;
+    background-color: yellow;
+ }
+ 
+/*footer*/
+#footer-back{
+   background-color:blue;
+   width:1518px;
+   height: 70px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 20px;
+}
+#footer-md div{
+   display: flex;
+   flex-direction: column;
+   margin-top: 60px;
+   
+}
+#footer-md{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer{
+  position:relative;
+  top:-180px;
+  background-color:darkslategray ;
+  height: 400px;
+}
+.see{
+   
+    color: blue;
+ 
+}
+
+
+
+/*           next page                  */
+
+
+
+
+#footer2{
+   
+  
+  background-color: darkslategray;
+  height: 400px;
+  
+}
+/* saimg*/
+#offer-banner div{
+  padding-left: 8px;
+}
+/* filter*/
+#filter{
+   
+    margin-left: 8px;
+    
+   
+    display: flex;
+}
+#side-menu div{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    justify-content: center;
+    padding-left: 30px;
+    height:160px;
+  
+}
+#side-menu{
+    width:250px;
+    background-color:white;
+}
+/* filter*/
+#p-row1{
+    width: 1550px;
+   background-color:white;
+}
+.row1-products div{
+   
+   height:220px;
+   padding-top: 20px;
+  
+}
+.row1-products{
+    display: flex;
+    justify-content: space-around;
+   margin-top: 80px;
+   
+}
+.row1-products img{
+    width:80% ;
+    height:80% ;
+}
+.row2-products{
+    display: flex;
+    justify-content: space-around;
+   margin-top: 80px;
+};
+.row2-products div{
+   
+    height:220px;
+    padding-top: 20px;
+ }
+ .row2-products img{
+    width:80% ;
+    height:80% ;
+}
